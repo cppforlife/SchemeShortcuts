@@ -21,7 +21,6 @@
 		960FA0A0160584AC00923A87 /* SchemeShortcuts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchemeShortcuts.h; sourceTree = "<group>"; };
 		960FA0A1160584AC00923A87 /* SchemeShortcuts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchemeShortcuts.m; sourceTree = "<group>"; };
 		960FA0A31605858400923A87 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		96D8938D1605C56B00EA8AD3 /* SchemeShortcuts.example */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SchemeShortcuts.example; sourceTree = "<group>"; };
 		96D8938F1605C74D00EA8AD3 /* SchemeDestinationPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchemeDestinationPair.h; sourceTree = "<group>"; };
 		96D893901605C74D00EA8AD3 /* SchemeDestinationPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchemeDestinationPair.m; sourceTree = "<group>"; };
 		96D893921605C92700EA8AD3 /* ShortcutsFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortcutsFile.h; sourceTree = "<group>"; };
@@ -46,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				96FF419916060A3300B461B4 /* README.md */,
-				96D8938D1605C56B00EA8AD3 /* SchemeShortcuts.example */,
 				960FA0941605819F00923A87 /* SchemeShortcuts */,
 				960FA0951605819F00923A87 /* Supporting Files */,
 				960FA0911605819F00923A87 /* Frameworks */,
