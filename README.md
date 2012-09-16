@@ -1,5 +1,6 @@
-SchemeShortcuts is an Xcode 4 plugin that lets you to define custom shortcuts
-to quickly switch between Xcode schemes. 
+SchemeShortcuts is an Xcode 4 plugin that lets you define custom shortcuts
+to quickly switch between Xcode schemes. After Xcode switches to specified
+scheme, `Product > Run` menu action is automatically run.
 
 * Install by building this project
 
