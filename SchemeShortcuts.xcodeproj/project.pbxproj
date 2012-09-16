@@ -26,6 +26,7 @@
 		96D893901605C74D00EA8AD3 /* SchemeDestinationPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchemeDestinationPair.m; sourceTree = "<group>"; };
 		96D893921605C92700EA8AD3 /* ShortcutsFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortcutsFile.h; sourceTree = "<group>"; };
 		96D893931605C92700EA8AD3 /* ShortcutsFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShortcutsFile.m; sourceTree = "<group>"; };
+		96FF419916060A3300B461B4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		960FA0841605819F00923A87 = {
 			isa = PBXGroup;
 			children = (
+				96FF419916060A3300B461B4 /* README.md */,
 				96D8938D1605C56B00EA8AD3 /* SchemeShortcuts.example */,
 				960FA0941605819F00923A87 /* SchemeShortcuts */,
 				960FA0951605819F00923A87 /* Supporting Files */,
