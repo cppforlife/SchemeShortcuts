@@ -12,7 +12,7 @@
 - (id)initWithFilePath:(NSString *)filePath {
     if (self = [super init]) {
         self.filePath = filePath;
-        NSLog(@"Shortcuts file at %@", self.filePath);
+        NSLog(@"Shortcuts file - %@", self.filePath);
 
         self.mapping = [NSMutableDictionary dictionary];
         [self _load];

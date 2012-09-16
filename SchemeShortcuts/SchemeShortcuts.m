@@ -57,7 +57,8 @@
     self.keyPressMonitor = [NSEvent addLocalMonitorForEventsMatchingMask:NSKeyDownMask handler:^ NSEvent* (NSEvent *event) {
         if (event.modifierFlags & NSCommandKeyMask) {
             id workspace = self._currentWorkspace;
-            if ([self _handleKeyPress:event.charactersIgnoringModifiers workspace:workspace]) return nil;
+            if (workspace && [self _handleKeyPress:event.charactersIgnoringModifiers workspace:workspace])
+                return nil;
         }
         return event;
     }];
@@ -76,7 +77,11 @@
 }
 
 - (id)_currentWorkspace {
-    return [[[NSApp keyWindow] windowController] valueForKeyPath:@"_workspace"];
+    id workspaceController = [[NSApp keyWindow] windowController];
+    if ([workspaceController isKindOfClass:NSClassFromString(@"IDEWorkspaceWindowController")]) {
+        return [workspaceController valueForKeyPath:@"_workspace"];
+    }
+    return nil;
 }
 
 - (ShortcutsFile *)shortcutsFileForWorkspace:(id)workspace {
